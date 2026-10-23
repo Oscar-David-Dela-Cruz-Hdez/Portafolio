@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oscar David | Portafolio Creativo</title>
+  <meta name="description" content="Portafolio de proyectos de desarrollo web, móvil y machine learning.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ===== Fondo animado ===== -->
+  <div class="bg-blobs" aria-hidden="true">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+    <div class="blob blob-4"></div>
+  </div>
+
+  <!-- ===== Navegación ===== -->
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="#inicio" class="logo">Oscar<span class="logo-dot">.</span>Dev</a>
+      <nav class="nav-links">
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre">Sobre mí</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+      <span class="hero-badge"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#rocket"></use></svg> Bienvenido a mi mundo digital</span>
+      <h1 class="hero-title">
+        Hola, soy <span class="gradient-text">Oscar David</span>
+        <br>y construyo <span class="gradient-text type-text" id="typeText"></span>
+      </h1>
+      <p class="hero-sub">
+        Desarrollador apasionado por crear experiencias web, móviles y soluciones
+        inteligentes con machine learning. Explora mis proyectos y descubre lo que puedo lograr.
+      </p>
+      <div class="hero-actions">
+        <a href="#proyectos" class="btn btn-primary">Ver proyectos <svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#arrow-right"></use></svg></a>
+        <a href="https://github.com/Oscar-David-Dela-Cruz-Hdez" target="_blank" rel="noopener" class="btn btn-ghost">GitHub <svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#external"></use></svg></a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">6+</span><span class="stat-label">Proyectos</span></div>
+        <div class="stat"><span class="stat-num">5</span><span class="stat-label">Tecnologías</span></div>
+        <div class="stat"><span class="stat-num">∞</span><span class="stat-label">Curiosidad</span></div>
+      </div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <div class="orbit">
+        <div class="planet planet-main"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#code"></use></svg></div>
+        <div class="planet planet-1"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#bolt"></use></svg></div>
+        <div class="planet planet-2"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#palette"></use></svg></div>
+        <div class="planet planet-3"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#bot"></use></svg></div>
+        <div class="planet planet-4"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#phone"></use></svg></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Sobre mí ===== -->
+  <section id="sobre" class="section">
+    <div class="section-head">
+      <span class="section-tag">Sobre mí</span>
+      <h2 class="section-title">Un poco de mi <span class="gradient-text">historia</span></h2>
+    </div>
+    <div class="sobre-grid">
+      <div class="card sobre-card">
+        <div class="sobre-icon"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#user"></use></svg></div>
+        <h3>¿Quién soy?</h3>
+        <p>
+          Desarrollador que disfruta transformar ideas en productos digitales.
+          Me mueve la mezcla entre diseño creativo, código limpio y datos inteligentes:
+          desde sistemas web hasta apps móviles y modelos de machine learning.
+        </p>
+      </div>
+      <div class="card sobre-card">
+        <div class="sobre-icon"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#target"></use></svg></div>
+        <h3>¿Qué busco?</h3>
+        <p>
+          Construir soluciones completas: frontend atractivo, backend sólido
+          y decisiones basadas en datos. Cada proyecto es una oportunidad de
+          aprender algo nuevo y dejar un pedacito de creatividad en el mundo.
+        </p>
+      </div>
+      <div class="card sobre-card">
+        <div class="sobre-icon"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#bulb"></use></svg></div>
+        <h3>Mi enfoque</h3>
+        <p>
+          Experiencia de usuario, rendimiento y escalabilidad. Me gusta el
+          trabajo en equipo, las buenas prácticas y la mejora continua:
+          pruebas, documentación y código que otro pueda leer y mantener.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Proyectos ===== -->
+  <section id="proyectos" class="section">
+    <div class="section-head">
+      <span class="section-tag">Proyectos</span>
+      <h2 class="section-title">Mi <span class="gradient-text">galería</span> de proyectos</h2>
+      <p class="section-sub">Cada tarjeta es una historia: tecnología, retos y soluciones.</p>
+    </div>
+    <div class="filters" id="filters">
+      <button class="chip active" data-filter="todos">Todos</button>
+      <button class="chip" data-filter="web">Web</button>
+      <button class="chip" data-filter="backend">Backend / IA</button>
+      <button class="chip" data-filter="movil">Móvil</button>
+    </div>
+    <div class="projects-grid" id="projectsGrid"></div>
+  </section>
+
+  <!-- ===== Habilidades ===== -->
+  <section id="habilidades" class="section">
+    <div class="section-head">
+      <span class="section-tag">Habilidades</span>
+      <h2 class="section-title">Mi <span class="gradient-text">caja de herramientas</span></h2>
+    </div>
+    <div class="skills-wrap">
+      <div class="skill-pill" style="--c:#f06529">HTML</div>
+      <div class="skill-pill" style="--c:#264de4">CSS</div>
+      <div class="skill-pill" style="--c:#f7df1e">JavaScript</div>
+      <div class="skill-pill" style="--c:#dd0031">Angular</div>
+      <div class="skill-pill" style="--c:#61dafb">React</div>
+      <div class="skill-pill" style="--c:#68a063">Node.js</div>
+      <div class="skill-pill" style="--c:#777bb4">PHP</div>
+      <div class="skill-pill" style="--c:#4479a1">MySQL</div>
+      <div class="skill-pill" style="--c:#3776ab">Python</div>
+      <div class="skill-pill" style="--c:#02569b">Flutter</div>
+      <div class="skill-pill" style="--c:#e34f26">PWA</div>
+      <div class="skill-pill" style="--c:#f7931e">Git</div>
+    </div>
+    <div class="skills-bars">
+      <div class="bar-row"><span>Frontend (HTML/CSS/JS/Angular)</span><div class="bar"><div class="bar-fill" data-width="90" style="--bar:#ff6ec7"></div></div></div>
+      <div class="bar-row"><span>Backend (Node/PHP)</span><div class="bar"><div class="bar-fill" data-width="85" style="--bar:#7af0ff"></div></div></div>
+      <div class="bar-row"><span>Bases de datos (MySQL)</span><div class="bar"><div class="bar-fill" data-width="80" style="--bar:#98fb98"></div></div></div>
+      <div class="bar-row"><span>Python & Machine Learning</span><div class="bar"><div class="bar-fill" data-width="75" style="--bar:#ffd93d"></div></div></div>
+      <div class="bar-row"><span>Móvil (Flutter)</span><div class="bar"><div class="bar-fill" data-width="70" style="--bar:#c792ea"></div></div></div>
+    </div>
+  </section>
+
+  <!-- ===== Contacto ===== -->
+  <section id="contacto" class="section">
+    <div class="section-head">
+      <span class="section-tag">Contacto</span>
+      <h2 class="section-title"><span class="gradient-text">¿Hablamos?</span></h2>
+    </div>
+    <div class="contact-card card">
+      <p class="contact-text">
+        ¿Te gusta lo que ves? Estoy abierto a colaboraciones, proyectos freelance
+        y nuevas oportunidades. Escríbeme o explora mis repositorios.
+      </p>
+      <div class="contact-links">
+        <a href="https://github.com/Oscar-David-Dela-Cruz-Hdez" target="_blank" rel="noopener" class="btn btn-primary">GitHub <svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#github"></use></svg></a>
+        <a href="mailto:delacruzhernandezoscardavid@outlook.com" class="btn btn-ghost">delacruzhernandezoscardavid@outlook.com <svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#mail"></use></svg></a>
+        <a href="tel:+527713387937" class="btn btn-ghost">771 338 7937 <svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#phone"></use></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Hecho con <span class="heart"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#heart"></use></svg></span> y mucho café · © 2026 Oscar David Dela Cruz Hernández</p>
+    <p class="footer-links">
+      <a href="https://github.com/Oscar-David-Dela-Cruz-Hdez" target="_blank" rel="noopener">GitHub</a>
+      <a href="#inicio">Volver arriba <svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons.svg#arrow-up"></use></svg></a>
+    </p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
